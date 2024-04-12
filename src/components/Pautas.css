@@ -9,8 +9,38 @@
     font-size: 22px;
 }
 
+.pauta-imagen {
+    max-width: 30%;
+    height: auto;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 .opciones {
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    margin-left: 20px;
+
+}
+
+.opciones input {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 55px;
+}
+
+.ventas-generadas {
+    font-weight: 800;
+}
+
+.inversion-pautas {
+    font-weight: 800;
+}
+
+.vistas {
+    font-weight: 800;
 }
