@@ -59,12 +59,7 @@ const Pautas = () => {
             />
           </div>
           <div>
-            <input
-              type="number"
-              className="ventas-generadas"
-              placeholder="35"
-              onChange={handleInputChange}
-            />
+            <h1 className="ventas-generales">35</h1>
           </div>
         </div>
       </div>
